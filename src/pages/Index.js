@@ -13,12 +13,11 @@ const Index = () => (
         <div className="title">
           <h2><Link to="/">About this site</Link></h2>
           <p>
-            {/* A beautiful, responsive, statically-generated,
-            react application written with modern Javascript. */}
+            I created my website based on this <a href="https://github.com/mldangelo/personal-site">template</a>.
           </p>
         </div>
       </header>
-      {/* <p>Master student @ McGill University</p> */}
+      <p>My profile picture is  <a href="https://www.parcjeandrapeau.com/en/biosphere-environment-museum-montreal/">Biosphere</a>, an environment museum and a geodesic dome in Montreal, QC. </p>
 
     </article>
   </Main>
