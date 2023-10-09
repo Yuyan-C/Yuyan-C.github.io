@@ -33,7 +33,7 @@ const Resume = () => (
         <div className="title">
           <h2>CV</h2>
           {/* <h2><Link to="resume">Resume</Link></h2> */}
-          <a href="https://drive.google.com/file/d/1s0J1icZt_uZbWTMOKBYJ853JaswhoMyf/view?usp=sharing">Last updated: Sept. 2023</a>
+          <a href="https://drive.google.com/file/d/1Kof1PpQ39RlSkDDCcpoAg-JSCRf-1OkP/view?usp=sharing">Last updated: Sept. 2023</a>
           <div className="link-container">
             {Object.keys(sections).map((sec) => (
               <h4 key={sec}>
