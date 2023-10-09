@@ -17,7 +17,7 @@ const Index = () => (
           </p>
         </div>
       </header>
-      <p>My profile picture is  <a href="https://www.parcjeandrapeau.com/en/biosphere-environment-museum-montreal/">Biosphere</a>, an environment museum and a geodesic dome in Montreal, QC. </p>
+      <p>My profile picture is <a href="https://www.parcjeandrapeau.com/en/biosphere-environment-museum-montreal/"> the Biosphere</a>, an environment museum and a geodesic dome in Montreal, QC. </p>
 
     </article>
   </Main>
