@@ -17,7 +17,7 @@ const Contact = () => (
         </div>
       </header>
       <div className="email-at">
-        <p>Feel free to get in touch. You can email me at: yuyan.chen2@mail.mcgill.ca. </p>
+        <p>Feel free to get in touch. You can find my email below. </p>
       </div>
       <ContactIcons />
     </article>
