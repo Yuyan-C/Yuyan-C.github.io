@@ -21,7 +21,7 @@ You can also find my publications on <a href="{{site.author.googlescholar}}">my 
             {% if p.paper_url %}<a href="{{ p.paper_url }}">Paper</a>{% endif %}
             {% if p.code_url %}<a href="{{ p.paper_url }}">Code</a>{% endif %}
             {% if p.dataset_url %}<a href="{{ p.paper_url }}">Dataset</a>{% endif %}
-            {% if p.project_url %}<a href="{{ p.paper_url }}">Project</a>{% endif %}
+            {% if p.project_url %}<a href="{{ p.project_url }}">Project</a>{% endif %}
         {% endcapture %}
         {{ links | strip }}
     </div>
