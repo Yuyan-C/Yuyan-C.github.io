@@ -2,7 +2,7 @@
 layout: archive
 title: "Publications"
 permalink: /publications/
-author_profile: false
+author_profile: true
 ---
 
 You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar.
