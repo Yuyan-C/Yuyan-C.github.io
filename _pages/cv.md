@@ -6,8 +6,5 @@ author_profile: true
 ---
 
 {% include base_path %}
-You can view my CV below:
+You can download my CV [here]({{ '/files/Yuyan-Chen-CV.pdf' | relative_url }}). Last updated Sept. 2025. 
 
-<iframe src="{{ '/files/Yuyan-Chen-CV.pdf' | relative_url }}" title="Yuyan Chen CV" style="width:100%; height:800px; border:0;"></iframe>
-
-If the file doesn't load, please download it [here]({{ '/files/Yuyan-Chen-CV.pdf' | relative_url }}).
