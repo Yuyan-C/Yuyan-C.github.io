@@ -7,6 +7,8 @@ author_profile: false
 
 You can also find my publications on <a href="{{site.author.googlescholar}}">my Google Scholar.
 
+\* denotes equal contribution.
+
 {% assign pubs = site.publications | sort: "year" | reverse %}
 
 {% for p in pubs %}
@@ -25,3 +27,4 @@ You can also find my publications on <a href="{{site.author.googlescholar}}">my 
     </div>
 
 {% endfor %}
+
