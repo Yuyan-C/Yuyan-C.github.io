@@ -14,6 +14,11 @@ main:
   # - title: "Talks"
   #   url: /talks/    
 
+  - title: "Fieldwork"
+    url: /fieldwork/
+    
+  #   url: /portfolio/
+
   # - title: "Teaching"
   #   url: /teaching/    
     

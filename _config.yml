@@ -12,7 +12,7 @@ site_theme               : "default" # Currently available options are "default"
 title                    : "Yuyan Chen"
 title_separator          : "-"
 name                     : &name "Yuyan Chen"
-description              : &description "Yuyan's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Personal website"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://Yuyan-C.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -63,7 +63,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : yuyan-chen-5514861a3
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
@@ -87,6 +87,8 @@ publication_category:
     title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
+  workshops:
+    title: 'Workshop Papers'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
@@ -224,11 +226,14 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  # portfolio:
+  #   output: true
+  #   permalink: /:collection/:path/
+  # talks:
+  #   output: false
+  #   permalink: /:collection/:path/
+  fieldwork:
     output: true
-    permalink: /:collection/:path/
-  talks:
-    output: false
     permalink: /:collection/:path/
 
 
@@ -268,7 +273,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
+      share: false
       comments: true
   # _portfolio
   - scope:
@@ -286,8 +291,17 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
+  # fieldwork
+  - scope:
+      path: ""
+      type: fieldwork
+    values:
+      layout: single
+      author_profile: true
+      share: false
+      comment: true
 
 # Sass/SCSS
 sass:
